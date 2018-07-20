@@ -53,6 +53,7 @@ export default class HomeComponent extends Component {
       { text: 'Password', value: 'protected' }
     ]
     const { links, usedSettings, showCustomIDError, expiration } = this.state
+    console.log(this.state)
     return (
       <div>
         <Segment raised>
